@@ -7,15 +7,40 @@
   </head>
   <style>
     body {
-        text-align: center;
+      text-align: center;
     }
     .pink {
-        background-color: pink;
+      background-color: pink;
+    }
+    .box {
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .blue {
+      background-color: blue;
     }
   </style>
   <body>
     <h1>Play Around with Colors</h1>
     <button type="button" id="btnChangeColor">Click Me</button>
+
+    <br />
+    <br />
+    <div class="red box"></div>
+    <input type="range" name="sRed" min="0" max="255" />
+
+    <div class="green box"></div>
+    <input type="range" name="sGreen" min="0" max="255" />
+
+    <div class="blue box"></div>
+    <input type="range" name="sBlue" min="0" max="255" />
 
     <script src="script.js"></script>
   </body>
